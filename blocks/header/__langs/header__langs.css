@@ -1,0 +1,12 @@
+.header__langs {
+  display: flex;
+  padding: 8px 0 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header__langs {
+    padding: 15px 0 0 0;
+  }
+}
