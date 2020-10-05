@@ -8,6 +8,6 @@
   min-height: 100vh;
   background-color: #2a2c2f;
   color: white;
-  font-family: "Inter";
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
 }
