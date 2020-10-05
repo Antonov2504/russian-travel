@@ -29,6 +29,7 @@
 - **Адаптивная верстка**
 
 **Установка**
+
 Проект можно скачать себе и развернуть локально из гитхаб репозитория [russian-travel](https://github.com/Antonov2504/russian-travel), командой:
  ```html
 $ git clone https://github.com/Antonov2504/russian-travel.git
