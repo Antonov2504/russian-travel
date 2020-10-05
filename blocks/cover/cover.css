@@ -33,35 +33,9 @@
   opacity: .8;
 }
 
-.cover__title {
-  margin: 0 0 16px 0;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 1.09;
-}
-
-.cover__subtitle {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
 @media screen and (min-width: 768px) {
   .cover {
     width: calc(100% + 24px * 2);
-  }
-
-  .cover__title {
-    width: 560px;
-    margin: 0 0 32px 0;
-    font-size: 72px;
-    line-height: 1.06;
-  }
-
-  .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 1.22;
   }
 }
 
