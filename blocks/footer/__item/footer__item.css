@@ -1,0 +1,19 @@
+.footer__item {
+  width: 100%;
+  margin: 0 0 32px 0;
+}
+
+.footer__item:last-child {
+  margin: 0 0 48px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__item {
+    width: initial;
+    margin: 0 18px 0 0;
+  }
+
+  .footer__item:last-child {
+    margin: 0;
+  }
+}

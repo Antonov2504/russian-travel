@@ -1,7 +1,6 @@
 .intro {
   padding: 64px 0;
-  margin: 0 auto;
-  align-self: flex-start;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,15 +11,12 @@
 
 @media screen and (min-width: 1024px) {
   .intro {
-    max-width: 74%;
-    padding: 92px 0;
-    margin: 0;
+    padding: 92px 25% 92px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    max-width: 58%;
-    margin: 0 0 0 100px;
+    max-width: calc(100% - 100px*2);
   }
 }
